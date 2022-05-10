@@ -10,7 +10,7 @@
 }
 
 .portfolio .box-container .box {
-  height: 40rem;
+  height: 45rem;
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: var(--box-shadow);

@@ -239,7 +239,7 @@ This project is done to translate  any national language. This project is done i
             </NewDiv>
           </div>
           <div className="box">
-            <img src="/Images/News_Articles.png" alt="" />
+            <img src="/Images/categories.png" alt="" />
             <div className="content">
               <h3>Star Wars Search Engine</h3>
               <div
@@ -251,7 +251,7 @@ This project is done to translate  any national language. This project is done i
               >
                 <a
                   className="icons-git"
-                  href="https://github.com/Ganesh-S-Prabhu/News-articles"
+                  href="https://github.com/Ganesh-S-Prabhu/IndiaMart"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -265,7 +265,7 @@ This project is done to translate  any national language. This project is done i
                   className="icons-git"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://soft-crisp-b1d6d3.netlify.app/"
+                  href="https://heroic-zabaione-a1a115.netlify.app/"
                 >
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -276,8 +276,8 @@ This project is done to translate  any national language. This project is done i
               </div>
             </div>
             <NewDiv>
-              <h3>Built with only HTML, CSS and Javascript</h3>
-              <h3>It is a dummy website where you can check the news articles. This project is done in unit-3 at Masai School.</h3>
+              <h3>Built with React,Redux for front-end and Expressjs and Nodejs for backend</h3>
+              <h3>A team project to clone IndiaMart bulit during the contruct week of unit-5 at Masai. Here we can purchase Beauty Related Products. </h3>
             </NewDiv>
           </div>
         </div>
@@ -287,7 +287,7 @@ This project is done to translate  any national language. This project is done i
 };
 
 const NewDiv = styled.div`
-  height: 10rem;
+  height: 15rem;
   width: 100%;
   & h3 {
     font-size: 1.5rem;
