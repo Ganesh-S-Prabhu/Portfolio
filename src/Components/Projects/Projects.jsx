@@ -15,11 +15,10 @@ export const Projects = () => {
         </h1>
 
         <div className="box-container">
-          <div className="box">
-            <img src="Images/Sephora.png" alt="" />
+        <div className="box">
+            <img src="/Images/categories.png" alt="" />
             <div className="content">
-              <h3>Sephora Clone</h3>
-
+              <h3></h3>
               <div
                 style={{
                   display: "flex",
@@ -29,9 +28,9 @@ export const Projects = () => {
               >
                 <a
                   className="icons-git"
+                  href="https://github.com/Ganesh-S-Prabhu/IndiaMart"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/Ganesh-S-Prabhu/SephoraConstruct"
                 >
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -43,7 +42,7 @@ export const Projects = () => {
                   className="icons-git"
                   target="_blank"
                   rel="noreferrer"
-                  href="https://zesty-lebkuchen-d2a18c.netlify.app/"
+                  href="https://heroic-zabaione-a1a115.netlify.app/"
                 >
                   <img
                     style={{ height: "100%", width: "100%" }}
@@ -54,11 +53,11 @@ export const Projects = () => {
               </div>
             </div>
             <NewDiv>
-              <h3>Built with HTML,CSS, JavaScript</h3>
-              <h3>
-A team project to clone Sephora bulit during the contruct week of unit-2 at Masai SchoolTrying to clone sephora.com</h3>
+              <h3>Built with React,Redux for front-end and Expressjs and Nodejs for backend</h3>
+              <h3>A team project to clone IndiaMart bulit during the contruct week of unit-5 at Masai. Here we can purchase Beauty Related Products. </h3>
             </NewDiv>
           </div>
+          
           <div className="box">
             <img src="Images/Zoomcar.png" alt="" />
             <div className="content">
@@ -101,6 +100,51 @@ A team project to clone Sephora bulit during the contruct week of unit-2 at Masa
               <h3>Built  with HTML,CSS, JavaScript</h3>
               <h3>
 A clone of website ZoomCar website, It is a car rental site where you can rent car for monthly and weekly basis. This project is done in unit-3 at Masai School.</h3>
+            </NewDiv>
+          </div>
+          <div className="box">
+            <img src="Images/Sephora.png" alt="" />
+            <div className="content">
+              <h3>Sephora Clone</h3>
+
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-around",
+                  width: "40%",
+                }}
+              >
+                <a
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Ganesh-S-Prabhu/SephoraConstruct"
+                >
+                  <img
+                    style={{ height: "100%", width: "100%" }}
+                    src="/Images/github-brands.svg"
+                    alt=""
+                  />
+                </a>
+                <a
+                  className="icons-git"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://zesty-lebkuchen-d2a18c.netlify.app/"
+                >
+                  <img
+                    style={{ height: "100%", width: "100%" }}
+                    src="/Images/globe-solid.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            
+            <NewDiv>
+              <h3>Built with HTML,CSS, JavaScript</h3>
+              <h3>
+A team project to clone Sephora bulit during the contruct week of unit-2 at Masai SchoolTrying to clone sephora.com. Here you can purchase Buauty Related Products</h3>
             </NewDiv>
           </div>
           <div className="box">
@@ -238,48 +282,7 @@ This project is done to translate  any national language. This project is done i
            </h3>     
             </NewDiv>
           </div>
-          <div className="box">
-            <img src="/Images/categories.png" alt="" />
-            <div className="content">
-              <h3>Star Wars Search Engine</h3>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "space-around",
-                  width: "40%",
-                }}
-              >
-                <a
-                  className="icons-git"
-                  href="https://github.com/Ganesh-S-Prabhu/IndiaMart"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    style={{ height: "100%", width: "100%" }}
-                    src="/Images/github-brands.svg"
-                    alt=""
-                  />
-                </a>
-                <a
-                  className="icons-git"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://heroic-zabaione-a1a115.netlify.app/"
-                >
-                  <img
-                    style={{ height: "100%", width: "100%" }}
-                    src="/Images/globe-solid.svg"
-                    alt=""
-                  />
-                </a>
-              </div>
-            </div>
-            <NewDiv>
-              <h3>Built with React,Redux for front-end and Expressjs and Nodejs for backend</h3>
-              <h3>A team project to clone IndiaMart bulit during the contruct week of unit-5 at Masai. Here we can purchase Beauty Related Products. </h3>
-            </NewDiv>
-          </div>
+          
         </div>
       </section>
     </>
