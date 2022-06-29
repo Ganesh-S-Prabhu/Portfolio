@@ -18,7 +18,7 @@ export const Projects = () => {
         <div className="box">
             <img src="/Images/categories.png" alt="" />
             <div className="content">
-              <h3></h3>
+              <h3>IndiaMart Clone</h3>
               <div
                 style={{
                   display: "flex",
@@ -61,7 +61,7 @@ export const Projects = () => {
           <div className="box">
             <img src="Images/Zoomcar.png" alt="" />
             <div className="content">
-              <h3>ZEE5 OTT Platform CLone</h3>
+              <h3>ZoomCar Clone</h3>
 
               <div
                 style={{
